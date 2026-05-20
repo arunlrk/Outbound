@@ -7,7 +7,7 @@ const fs    = require('fs');
 const path  = require('path');
 
 const CSV_FILE      = path.join(__dirname, 'data', 'leads_with_emails.csv');
-const REOON_API_KEY = '49T8SS3gL4LVCUdZa5FpHunPEa7smro6';
+const REOON_API_KEY = '';
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
