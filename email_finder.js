@@ -10,7 +10,7 @@ const LEADS_FILE  = path.join(__dirname, 'data', 'leads.json');
 const OUTPUT_FILE = path.join(__dirname, 'data', 'leads_with_emails.csv');
 
 // ── Config — replace key if you regenerate it in Reoon dashboard ──────────────
-const REOON_API_KEY = '49T8SS3gL4LVCUdZa5FpHunPEa7smro6';
+const REOON_API_KEY = '';
 const REOON_MODE    = 'power'; // 'power' uses ~5 credits but catches catch-all and invalid accurately
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
